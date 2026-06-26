@@ -455,6 +455,8 @@ ul { list-style: none; }
   .hero .container { grid-template-columns: 1fr; }
   .hero-visual { display: none; }
   .contact-grid { grid-template-columns: 1fr; }
+  .intro-grid,
+  [style*="grid-template-columns:1fr 1fr"] { grid-template-columns: 1fr !important; gap: 30px !important; }
 }
 @media (max-width: 768px) {
   :root { --header-h: 64px; }
@@ -482,4 +484,15 @@ ul { list-style: none; }
   .section-head { margin-bottom: 36px; }
   .compare { font-size: 13px; }
   .compare th, .compare td { padding: 12px 10px; }
+  .hero h1 { font-size: 28px; }
+  .hero .lead { font-size: 15px; }
+  .hero-cta { flex-direction: column; }
+  .hero-cta .btn { width: 100%; text-align: center; }
+  img { height: auto; }
+  table, .spec-table, .compare { display: block; overflow-x: auto; }
+  .page-hero { padding: calc(var(--header-h) + 40px) 0 36px; }
+  .page-hero h1 { font-size: 26px; }
+  .article-detail { padding: 0; }
+  .article-header h1 { font-size: 22px; }
+  .article-body { font-size: 15px; }
 }
