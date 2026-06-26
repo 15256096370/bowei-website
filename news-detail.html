@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>文章详情 | 安徽柏威工业</title>
+  <meta name="description" content="安徽柏威工业新闻资讯文章详情" />
+  <meta name="keywords" content="液压夹具资讯,机加工行业动态,夹具技术" />
+  <link rel="icon" href="assets/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .article-detail { max-width: 860px; margin: 0 auto; }
+    .article-header { margin-bottom: 40px; }
+    .article-header .cat { display:inline-block; font-size:13px; font-weight:600; color:var(--c-primary); background:rgba(200,16,46,0.08); padding:5px 14px; border-radius:14px; margin-bottom:16px; }
+    .article-header h1 { font-size: clamp(26px, 4vw, 38px); font-weight: 800; line-height: 1.35; margin-bottom: 20px; color: var(--c-ink); }
+    .article-meta { display:flex; gap:24px; flex-wrap:wrap; font-size:14px; color:var(--c-ink-3); padding-bottom:24px; border-bottom:1px solid var(--c-line); }
+    .article-meta span { display:flex; align-items:center; gap:6px; }
+    .article-body { font-size: 16px; line-height: 2; color: var(--c-ink-2); }
+    .article-body p { margin-bottom: 20px; }
+    .article-body h2 { font-size: 22px; font-weight: 700; color: var(--c-ink); margin: 36px 0 16px; padding-left: 16px; border-left: 4px solid var(--c-primary); }
+    .article-body h3 { font-size: 18px; font-weight: 700; color: var(--c-ink); margin: 28px 0 14px; }
+    .article-body ul, .article-body ol { margin-bottom: 20px; padding-left: 24px; }
+    .article-body li { margin-bottom: 8px; }
+    .article-body .highlight-box { background: var(--c-bg-soft); border-left: 4px solid var(--c-primary); padding: 20px 24px; border-radius: 0 var(--radius) var(--radius) 0; margin: 24px 0; }
+    .article-body .highlight-box p { margin-bottom: 8px; }
+    .article-body table { width: 100%; border-collapse: collapse; margin: 24px 0; }
+    .article-body table th, .article-body table td { padding: 12px 16px; text-align: left; border: 1px solid var(--c-line); font-size: 15px; }
+    .article-body table th { background: var(--c-bg-soft); font-weight: 700; color: var(--c-ink); }
+    .article-nav { margin-top: 50px; padding-top: 30px; border-top: 1px solid var(--c-line); display: flex; justify-content: space-between; }
+    .article-nav a { color: var(--c-primary); font-weight: 600; }
+    .back-link { display: inline-flex; align-items: center; gap: 6px; margin-bottom: 30px; font-size: 14px; color: var(--c-ink-3); }
+    .back-link:hover { color: var(--c-primary); }
+    @media (max-width:768px) { .article-body { font-size:15px; } }
+  </style>
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <img class="logo" src="assets/logo.png" alt="安徽柏威工业技术有限公司 BOWEI INDUSTRIAL" />
+      </a>
+      <nav class="main-nav">
+        <a href="index.html">首页</a>
+        <a href="about.html">关于我们</a>
+        <a href="products.html">产品中心</a>
+        <a href="cases.html">应用案例</a>
+        <a href="news.html" class="active">新闻资讯</a>
+        <a href="contact.html">联系我们</a>
+      </nav>
+      <div class="header-actions">
+        <div class="lang-switch">
+          <a href="news-detail.html" class="active">中</a>
+          <a href="en/news-detail.html">EN</a>
+        </div>
+        <a href="contact.html" class="btn btn--primary">获取报价</a>
+        <button class="nav-toggle" aria-label="菜单"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ PAGE HERO ============ -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>文章详情</h1>
+      <p>技术分享 · 行业动态 · 产品知识</p>
+      <div class="breadcrumb">
+        <a href="index.html">首页</a><span>/</span><a href="news.html">新闻资讯</a><span>/</span>文章详情
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ARTICLE CONTENT ============ -->
+  <section class="section">
+    <div class="container">
+      <a href="news.html" class="back-link">← 返回新闻列表</a>
+      <div class="article-detail reveal" id="article-container">
+        <!-- 文章内容由 JS 动态渲染 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta-band">
+    <div class="container">
+      <div class="reveal">
+        <h2>有技术问题想深入交流？</h2>
+        <p>欢迎联系我们的专业技术团队</p>
+      </div>
+      <div class="reveal">
+        <a href="contact.html" class="btn btn--accent btn--lg">联系技术团队</a>
+        <a href="tel:15256096370" class="btn btn--ghost btn--lg" style="margin-left:12px">📞 15256096370</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand"><img class="logo" src="assets/logo.png" alt="安徽柏威工业技术有限公司 BOWEI INDUSTRIAL" /></a>
+          <p>安徽柏威工业技术有限公司，高新技术企业，专业从事液压工装夹具、定位与交换系统、非标自动化设备的研发、生产与销售，是华东区首屈一指的专业工装夹具制造商。</p>
+        </div>
+        <div class="footer-col">
+          <h4>快速导航</h4>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="about.html">关于我们</a></li>
+            <li><a href="products.html">产品中心</a></li>
+            <li><a href="cases.html">应用案例</a></li>
+            <li><a href="news.html">新闻资讯</a></li>
+            <li><a href="contact.html">联系我们</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>产品系列</h4>
+          <ul>
+            <li><a href="products.html">液压夹具</a></li>
+            <li><a href="products.html">气动夹具</a></li>
+            <li><a href="products.html">球锁定位</a></li>
+            <li><a href="products.html">零点定位</a></li>
+            <li><a href="products.html">交换工作台</a></li>
+            <li><a href="products.html">自动化集成</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>联系我们</h4>
+          <ul class="footer-contact">
+            <li><span class="ico">📍</span><span>合肥市包河区繁华大道联东U谷二期12栋102号</span></li>
+            <li><span class="ico">📞</span><span><a href="tel:15256096370">15256096370</a></span></li>
+            <li><span class="ico">👤</span><span>联系人：陈迟迟</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span class="js-year">2026</span> 安徽柏威工业技术有限公司 版权所有 · Anhui Bowei Industrial Technology Co., Ltd.</span>
+        <span>高新技术企业 · ISO9001 认证企业</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    // 文章数据
+    const articles = [
+      {
+        id: 1,
+        cat: '技术分享',
+        title: '液压夹具 vs 手动夹具：五大维度全面解析',
+        date: '2026-06-18',
+        author: '技术中心',
+        content: `
+          <p>在现代机加工领域，工装夹具的选择直接影响加工效率、精度和成本。液压夹具作为先进夹紧技术的代表，正逐步替代传统手动夹具。本文从效率、精度、智能化、安全、稳定性五个维度，对两者进行全面对比分析。</p>
+          
+          <h2>一、效率对比</h2>
+          <p><strong>液压夹具</strong>通过液压系统驱动，夹紧和松开动作仅需 <strong>2-3 秒</strong>，配合自动控制可实现无人化操作，大幅缩短辅助时间。而<strong>手动夹具</strong>依赖操作工手动拧紧，每次装夹需 30 秒至 1 分钟不等，在多工序、大批量生产中，效率差距尤为显著。</p>
+          <p>以一个典型的四工序加工场景为例：液压夹具一个班次（8小时）可完成约 400 件，手动夹具仅能完成约 250 件，效率提升超过 <strong>60%</strong>。</p>
+          
+          <h2>二、精度对比</h2>
+          <p>夹紧力的精确控制是保证加工精度的关键。液压夹具的夹紧力偏差仅为 <strong>1%-1.5%</strong>，支撑力偏差低至 <strong>0.5%-0.8%</strong>，能够确保每一次装夹的一致性。手动夹具受操作工经验、力度差异影响，夹紧力波动可达 <strong>20%-30%</strong>，容易导致工件变形或加工振动，影响形位公差。</p>
+          
+          <div class="highlight-box">
+            <p><strong>💡 关键数据：</strong>液压夹具可达到重复定位精度 ≤0.003mm，而手动夹具通常只能保证 0.01mm-0.02mm 的重复精度。</p>
+          </div>
+          
+          <h2>三、智能化程度</h2>
+          <p>液压夹具可集成压力传感器、位置检测开关等元器件，实现夹紧状态的实时监控与反馈。在自动化产线中，液压夹具可与机床 CNC 系统、机器人上下料系统联动，实现全流程智能化。手动夹具不具备任何信号反馈能力，无法融入数字化制造体系。</p>
+          
+          <h2>四、安全性</h2>
+          <p>液压夹具配备压力保持功能，即使在断电情况下仍能维持夹紧力，防止工件飞出。此外，液压夹具可设置夹紧力上限，避免因过载损坏工件或夹具。手动夹具完全依赖人工判断，存在夹紧不足导致工件松动、或过度夹紧损坏工件的风险。</p>
+          
+          <h2>五、稳定性与寿命</h2>
+          <p>液压夹具采用高品质密封件和精密液压元件，在正常维护下可使用 <strong>10 年以上</strong>，夹紧性能无明显衰减。手动夹具的丝杆、压板等机械部件易磨损，长期使用后夹紧可靠性下降，需定期更换。</p>
+          
+          <h2>总结</h2>
+          <p>综合来看，液压夹具在效率、精度、智能化、安全性、稳定性五个维度均优于手动夹具。对于追求高品质、高效率的制造企业，液压夹具是必然选择。安徽柏威深耕液压夹具领域 20 年，可为客户提供从方案设计到交付使用的全流程服务。</p>
+        `
+      },
+      {
+        id: 2,
+        cat: '产品知识',
+        title: '零点定位系统：0.003mm 精度如何提升换装效率',
+        date: '2026-06-10',
+        author: '技术中心',
+        content: `
+          <p>在多品种、小批量生产中，工装换装时间是影响设备利用率的关键因素。零点定位系统以 ≤0.003mm 的重复定位精度，实现了工装的秒级快速更换，成为柔性制造的核心技术之一。本文将详细介绍零点定位系统的原理、优势及典型应用。</p>
+          
+          <h2>零点定位系统的工作原理</h2>
+          <p>零点定位系统由<strong>定位拉钉</strong>和<strong>定位模块</strong>两部分组成。定位拉钉安装在夹具底板或工件托盘上，定位模块固定在机床工作台上。通过气动或液压驱动，定位模块内的夹紧机构将拉钉拉入并锁紧，实现高精度的机械定位和夹紧。</p>
+          <p>其核心在于定位模块内部采用了精密锥面配合和弹性变形补偿技术，确保每次拉入位置高度一致，重复定位精度可达 <strong>≤0.003mm</strong>。</p>
+          
+          <h2>零点定位 vs 球锁定位</h2>
+          <table>
+            <tr><th>对比项</th><th>零点定位系统</th><th>球锁定位系统</th></tr>
+            <tr><td>重复定位精度</td><td>≤0.003mm</td><td>&lt;±0.013mm</td></tr>
+            <tr><td>锁紧方式</td><td>气动/液压自动</td><td>手动旋转锁紧</td></tr>
+            <tr><td>换装时间</td><td>2-3 秒</td><td>15-30 秒</td></tr>
+            <tr><td>自动化适配</td><td>✅ 完美适配</td><td>❌ 需人工操作</td></tr>
+            <tr><td>适用场景</td><td>高精度、自动化产线</td><td>一般精度、手动换装</td></tr>
+            <tr><td>成本</td><td>较高</td><td>较低</td></tr>
+          </table>
+          
+          <h2>选型要点</h2>
+          <p><strong>1. 根据精度需求：</strong>如果工件加工精度要求 ≤0.01mm，建议选用零点定位系统；一般加工精度可选用球锁定位。</p>
+          <p><strong>2. 根据自动化程度：</strong>自动化产线、协作机器人上下料场景，零点定位是唯一选择。</p>
+          <p><strong>3. 根据换装频率：</strong>每日换装超过 5 次，零点定位的效率优势将非常明显。</p>
+          <p><strong>4. 根据承载要求：</strong>零点定位模块有多种规格，夹紧力从 10kN 到 50kN 不等，需根据工件和夹具重量选择。</p>
+          
+          <h2>典型案例</h2>
+          <p>某汽车零部件企业采用柏威零点定位系统后，单台加工中心换装时间从 <strong>15 分钟缩短至 30 秒</strong>，设备利用率从 65% 提升至 <strong>82%</strong>，年新增产能约 120 万元。同时，由于定位精度提高，产品一次合格率从 96% 提升至 <strong>99.5%</strong>。</p>
+          
+          <div class="highlight-box">
+            <p><strong>💡 柏威提供两种定位系统的完整解决方案，</strong>可根据客户实际需求推荐最优配置。欢迎联系技术团队获取专业建议。</p>
+          </div>
+        `
+      },
+      {
+        id: 3,
+        cat: '自动化',
+        title: '协作机器人：中小企业小批量多品种生产的最优解',
+        date: '2026-05-28',
+        author: '自动化部',
+        content: `
+          <p>面对小批量、多品种的生产模式，传统工业机器人因其高昂的部署成本和复杂的编程要求，让许多中小企业望而却步。协作机器人的出现，为这一困境提供了新的答案。</p>
+          
+          <h2>什么是协作机器人？</h2>
+          <p>协作机器人（Collaborative Robot，简称 Cobot）是设计用于与人类在同一工作空间内安全交互的机器人。与传统工业机器人不同，协作机器人不需要安全围栏，体积小巧、部署灵活，可以直接放置在生产线上与操作工协同工作。</p>
+          
+          <h2>协作机器人的核心优势</h2>
+          <h3>1. 部署成本低</h3>
+          <p>传统工业机器人需要安全围栏、专用地基、专业编程，部署成本动辄数十万元。协作机器人即插即用，无需安全围栏，图形化编程界面让普通操作工也能快速上手，总投资成本仅为传统方案的 <strong>1/3 到 1/2</strong>。</p>
+          
+          <h3>2. 灵活性强</h3>
+          <p>协作机器人重量轻（通常 10-30kg），可以灵活移动和重新部署。当产品换型时，只需调用预设程序或进行简单的示教编程即可适应新任务，特别适合小批量、多品种的生产模式。</p>
+          
+          <h3>3. 安全性高</h3>
+          <p>内置力矩传感器和碰撞检测功能，一旦碰到人体立即停止，无需安全围栏即可与人近距离协作。这大幅降低了空间需求和部署复杂度。</p>
+          
+          <h3>4. 提升产量和质量</h3>
+          <p>协作机器人可接管上下料、检测、组装等重复性工作，操作工得以专注于更高价值的任务。机器人动作一致性好，有效减少人为失误，提高产品质量稳定性。</p>
+          
+          <h2>典型应用场景</h2>
+          <ul>
+            <li><strong>机床上下料：</strong>协作机器人配合夹具实现工件的自动上下料，1 台机器人可服务 2-3 台机床。</li>
+            <li><strong>检测与分拣：</strong>集成视觉系统，自动完成零件的外观检测和分拣。</li>
+            <li><strong>装配作业：</strong>精密零件的力控装配，如轴承压装、密封圈安装等。</li>
+            <li><strong>螺丝锁付：</strong>配合自动螺丝机，实现多位置螺丝的自动锁付。</li>
+          </ul>
+          
+          <h2>投资回报分析</h2>
+          <p>以一台协作机器人为例：投资约 <strong>15-25 万元</strong>，可替代 1-1.5 名操作工（按两班倒计算），年节省人工成本约 <strong>10-15 万元</strong>，投资回收期约 <strong>1.5-2 年</strong>。同时，产品一致性和合格率的提升带来的间接效益更为可观。</p>
+          
+          <p>柏威提供从方案设计、设备选型到安装调试的<strong>交钥匙工程服务</strong>，帮助客户快速实现产线自动化升级。</p>
+        `
+      },
+      {
+        id: 4,
+        cat: '行业动态',
+        title: '汽车零部件机加工趋势：高精度与柔性化并重',
+        date: '2026-05-15',
+        author: '市场部',
+        content: `
+          <p>随着新能源汽车市场的爆发式增长，汽车零部件机加工行业正经历深刻变革。电机壳、电机轴、涡轮增压壳、动盘、静盘等新型零部件的加工需求快速攀升，对加工精度、效率和柔性提出了更高要求。</p>
+          
+          <h2>趋势一：高精度成为基本门槛</h2>
+          <p>新能源汽车零部件对加工精度的要求普遍高于传统燃油车。以电机壳为例，轴承孔的同轴度要求通常 ≤0.015mm，端面跳动 ≤0.02mm。这要求夹具的定位精度必须达到 <strong>0.003mm-0.005mm</strong> 级别，传统手动夹具已无法满足。</p>
+          <p>高精度夹具结合精密机床，成为保证产品质量的必备条件。液压夹具、零点定位系统等高精度工装方案正快速普及。</p>
+          
+          <h2>趋势二：柔性化生产成主流</h2>
+          <p>新能源汽车产品更新换代速度远超传统燃油车，车型周期从 5-7 年缩短至 <strong>2-3 年</strong>。这意味着零部件产线必须具备快速换型的能力。柔性夹具系统（如快换定位模块 + 模块化夹具）可在 <strong>5 分钟</strong>内完成产线换型，成为主机厂的标配要求。</p>
+          
+          <h2>趋势三：自动化与智能化深度融合</h2>
+          <p>头部零部件企业已大规模引入自动化产线，机床 + 夹具 + 机器人 + MES 系统的集成方案成为主流。夹具不再仅是夹持工具，而是带有状态感知、数据反馈功能的智能单元。夹具的夹紧力、位置状态可实时上传至 MES，实现全流程质量追溯。</p>
+          
+          <h2>趋势四：轻量化驱动新材料加工需求</h2>
+          <p>铝合金、镁合金等轻质材料的应用比例持续提高。这些材料切削力小但易变形，要求夹具具有<strong>多点浮动支撑</strong>和<strong>精确可调的夹紧力</strong>，以在保证加工效率的同时避免零件变形。</p>
+          
+          <h2>柏威的应对</h2>
+          <p>柏威紧跟行业趋势，持续投入研发，已形成完整的高精度液压夹具 + 快速定位系统 + 自动化集成的产品矩阵。20 年行业经验，服务超过 500 个案例，可为各类汽车零部件提供成熟的机加工解决方案。</p>
+        `
+      },
+      {
+        id: 5,
+        cat: '公司动态',
+        title: '柏威引进高精度数控设备，持续提升加工能力',
+        date: '2026-05-02',
+        author: '行政部',
+        content: `
+          <p>为满足日益增长的订单需求和客户对加工精度的高标准，安徽柏威工业技术有限公司近期持续加大设备投入，引进多台高精度数控加工及检测设备，全面提升核心零件的自主生产能力。</p>
+          
+          <h2>新增设备一览</h2>
+          <table>
+            <tr><th>设备名称</th><th>品牌/产地</th><th>数量</th><th>主要用途</th></tr>
+            <tr><td>车削中心</td><td>日本大隈</td><td>多台</td><td>精密轴类、盘类零件车削</td></tr>
+            <tr><td>加工中心</td><td>美国捷力</td><td>多台</td><td>精密铣削、钻削、攻丝</td></tr>
+            <tr><td>龙门加工中心</td><td>国盛</td><td>多台</td><td>大型结构件精密加工</td></tr>
+            <tr><td>四轴半数控转台</td><td>—</td><td>多台</td><td>多面一次装夹加工</td></tr>
+            <tr><td>精密磨床</td><td>—</td><td>多台</td><td>高精度平面/外圆磨削</td></tr>
+            <tr><td>线切割机床</td><td>—</td><td>多台</td><td>精密轮廓切割</td></tr>
+            <tr><td>三坐标测量仪</td><td>—</td><td>多台</td><td>高精度尺寸检测</td></tr>
+          </table>
+          
+          <h2>设备升级的核心价值</h2>
+          <h3>1. 核心零件自主生产</h3>
+          <p>夹具的关键零件（如定位块、夹紧缸体、液压阀体等）精度要求极高。有了这批先进设备，柏威实现了核心零件的 <strong>100% 自主生产</strong>，不再依赖外协加工，品质控制更加严格，交期更有保障。</p>
+          
+          <h3>2. 加工精度大幅提升</h3>
+          <p>新设备配合高精度三坐标测量仪，加工精度可达 <strong>μm 级</strong>，确保每一件出厂产品都经过严格检测，达到设计要求。</p>
+          
+          <h3>3. 产能扩大</h3>
+          <p>设备数量的增加直接提升了产能，目前柏威可同时承接多个大型项目，月产能较之前提升 <strong>40%</strong>，能够更快地响应客户订单。</p>
+          
+          <h2>未来规划</h2>
+          <p>柏威将持续关注行业前沿技术，计划进一步引进五轴加工中心、车铣复合等高端设备，不断提升制造能力，为客户提供更优质的产品和服务。</p>
+        `
+      },
+      {
+        id: 6,
+        cat: '技术分享',
+        title: '工装夹具设计要点：从工件分析到方案落地',
+        date: '2026-04-20',
+        author: '技术中心',
+        content: `
+          <p>一套优秀的工装夹具，是精密加工成功的关键。柏威在 20 年的夹具设计实践中，总结了一套系统化的设计方法，涵盖从工件分析、方案设计到最终交付的全流程。本文分享核心要点。</p>
+          
+          <h2>第一步：工件分析</h2>
+          <p>夹具设计的起点是深入理解被加工零件：</p>
+          <ul>
+            <li><strong>材料特性：</strong>铸铁、钢件、铝合金、镁合金的切削力差异显著，直接影响夹紧力设计。</li>
+            <li><strong>结构特征：</strong>薄壁件需考虑变形控制；异形件需设计专用定位方案。</li>
+            <li><strong>加工工序：</strong>粗加工与精加工对夹具刚性和精度的要求不同，需区别设计。</li>
+            <li><strong>精度要求：</strong>关键尺寸公差、形位公差、表面粗糙度是夹具精度设计的依据。</li>
+          </ul>
+          
+          <h2>第二步：定位方案设计</h2>
+          <p>定位是夹具设计的核心。柏威采用经典的 <strong>3-2-1 六点定位原理</strong>，确保工件在空间中的位置唯一确定：</p>
+          <ul>
+            <li><strong>3 个定位点：</strong>确定基准面（限制 3 个自由度）</li>
+            <li><strong>2 个定位点：</strong>确定导向面（限制 2 个自由度）</li>
+            <li><strong>1 个定位点：</strong>确定止推面（限制 1 个自由度）</li>
+          </ul>
+          <p>定位元件的选择（定位销、定位块、V 形块等）需根据工件具体形状和加工要求确定。</p>
+          
+          <h2>第三步：夹紧力计算与夹紧方案</h2>
+          <p>夹紧力的计算需综合考虑切削力、离心力（旋转加工时）、工件重力等因素。基本原则：</p>
+          <ul>
+            <li>夹紧力应<strong>大于切削力产生的滑移和翻转力矩</strong>，安全系数通常取 1.5-2。</li>
+            <li>夹紧力方向应<strong>指向主要定位面</strong>，以利于工件稳定。</li>
+            <li>夹紧点应布置在<strong>支撑点正上方或附近</strong>，避免悬空夹紧导致工件变形。</li>
+          </ul>
+          
+          <div class="highlight-box">
+            <p><strong>📐 经验公式：</strong>夹紧力 F = K × Fc，其中 Fc 为主切削力，K 为安全系数（粗加工取 2.0-2.5，精加工取 1.5-2.0）。</p>
+          </div>
+          
+          <h2>第四步：刚性校核</h2>
+          <p>夹具在夹紧力和切削力作用下的变形量必须控制在允许范围内。柏威采用有限元分析（FEA）对关键夹具进行刚度仿真，确保在最大切削载荷下，夹具变形量 <strong>≤0.005mm</strong>。</p>
+          
+          <h2>第五步：操作性与维护性</h2>
+          <p>优秀的夹具不仅要"好用"，还要"好维护"：</p>
+          <ul>
+            <li>工件装卸方便，避免操作干涉</li>
+            <li>排屑顺畅，防止切屑堆积影响定位</li>
+            <li>易损件（密封圈、弹簧等）便于更换</li>
+            <li>关键定位面设有防护，避免磕碰损伤</li>
+          </ul>
+          
+          <h2>柏威的设计流程</h2>
+          <p>柏威建立了标准化的夹具设计流程：<strong>需求评审 → 方案设计 → 3D 建模 → FEA 仿真 → 方案评审 → 详细设计 → 制造装配 → 调试交付</strong>，确保每一个环节都经过严格把控，为客户交付高品质的夹具产品。</p>
+        `
+      },
+      {
+        id: 7,
+        cat: '公司动态',
+        title: '柏威参加2026第五届中国轻量化产业大会',
+        date: '2026-05-26',
+        author: '行政部',
+        content: `
+          <p>2026年5月26日至28日，<strong>第五届中国轻量化产业大会（CLIC）暨安徽省铸造协会压铸分会第一届会员大会</strong>在安徽合肥白金汉爵大酒店隆重召开。安徽柏威工业技术有限公司作为专业工装夹具制造商受邀参会。</p>
+          
+          <h2>大会概况</h2>
+          <p>中国轻量化产业大会是国内轻量化领域最具影响力的行业盛会之一，汇聚了来自汽车、航空航天、轨道交通等领域的专家学者、企业代表，共同探讨轻量化材料、工艺与装备的最新发展。本届大会同期举办安徽省铸造协会压铸分会第一届会员大会，进一步拓展了行业交流的深度与广度。</p>
+          
+          <h2>柏威的参展亮点</h2>
+          <h3>1. 轻量化零件夹具解决方案</h3>
+          <p>随着铝合金、镁合金等轻质材料在汽车零部件中的广泛应用，对夹具设计提出了更高要求。柏威展示了针对<strong>薄壁轻量化零件</strong>的专用夹具方案，采用多点浮动支撑和精确可调夹紧力技术，有效控制加工变形，保证零件精度。</p>
+          
+          <h3>2. 新能源汽车零部件夹具</h3>
+          <p>针对电机壳、电机轴、涡轮增压壳等新能源汽车核心零部件，柏威展示了一站式液压夹具解决方案。配合零点定位系统，可实现产线快速换型，满足新能源汽车行业小批量、多品种的柔性生产需求。</p>
+          
+          <h3>3. 技术交流与行业洞察</h3>
+          <p>大会期间，柏威技术团队与来自主机厂、零部件企业的专家进行了深入交流，就轻量化趋势下的机加工挑战与夹具技术发展方向交换了意见，进一步明确了研发方向。</p>
+          
+          <h2>参会意义</h2>
+          <p>此次参会不仅展示了柏威在轻量化零件夹具领域的技术实力，更加深了公司与行业上下游的联系。柏威将持续关注轻量化产业发展趋势，以创新的夹具技术助力客户实现高效、精密、柔性的生产目标。</p>
+          
+          <div class="highlight-box">
+            <p><strong>📍 会议信息：</strong>2026年5月26日-28日 · 合肥白金汉爵大酒店（合肥市徽州大道5111号）</p>
+          </div>
+        `
+      },
+      {
+        id: 8,
+        cat: '公司动态',
+        title: '柏威亮相第26届中国（合肥）国际装备制造业博览会',
+        date: '2026-05-14',
+        author: '市场部',
+        content: `
+          <p>2026年5月14日至16日，<strong>第26届中国（合肥）国际装备制造业博览会</strong>在合肥滨湖国际会展中心盛大举行。安徽柏威工业技术有限公司携机床、夹具、自动化等整体机加工解决方案亮相<strong>5号馆B121-2展位</strong>，吸引了众多专业观众驻足交流。</p>
+          
+          <h2>展会介绍</h2>
+          <p>中国（合肥）国际装备制造业博览会是华东地区最具规模和影响力的装备制造行业盛会之一。本届展会汇聚了国内外数百家知名企业，涵盖数控机床、工装夹具、工业自动化、精密测量等领域，全方位展示智能制造产业链的最新成果。</p>
+          
+          <h2>柏威展台风采</h2>
+          <h3>1. 液压工装夹具系列</h3>
+          <p>柏威重点展出了多款液压夹具实物及方案，涵盖汽车零部件、工程机械、液压件等多个行业应用。现场演示了液压夹具的快速夹紧与松开过程，<strong>2-3 秒</strong>的夹紧效率让参观者直观感受到液压夹具相比手动夹具的巨大优势。</p>
+          
+          <h3>2. 定位与交换系统</h3>
+          <p>展台同步展示了球锁定位系统和零点定位系统，重复定位精度分别可达 <strong>&lt;±0.013mm</strong> 和 <strong>≤0.003mm</strong>。技术人员现场演示了工装快速更换过程，展现了在柔性生产线中的高效应用。</p>
+          
+          <h3>3. 自动化集成方案</h3>
+          <p>柏威还展示了协作机器人与夹具集成的自动化上下料方案，吸引了众多中小企业代表的关注。低成本的自动化升级路径成为展台热议话题之一。</p>
+          
+          <h2>展会成果</h2>
+          <p>为期三天的展会中，柏威展台累计接待了超过 <strong>200 位</strong>专业观众，与多家主机厂和零部件企业达成了初步合作意向。此次参展进一步提升了柏威在华东地区的品牌知名度和行业影响力。</p>
+          
+          <div class="highlight-box">
+            <p><strong>📍 展会信息：</strong>2026年5月14日-16日 · 合肥滨湖国际会展中心 · 5号馆B121-2展位</p>
+          </div>
+        `
+      }
+    ];
+
+    // 获取 URL 参数
+    function getParam(name) {
+      const url = new URL(window.location.href);
+      return url.searchParams.get(name);
+    }
+
+    // 渲染文章
+    function renderArticle() {
+      const id = parseInt(getParam('id')) || 1;
+      const article = articles.find(a => a.id === id) || articles[0];
+      const container = document.getElementById('article-container');
+
+      document.title = article.title + ' | 安徽柏威工业';
+
+      const currentIndex = articles.findIndex(a => a.id === id);
+
+      container.innerHTML = `
+        <div class="article-header">
+          <span class="cat">${article.cat}</span>
+          <h1>${article.title}</h1>
+          <div class="article-meta">
+            <span>📅 ${article.date}</span>
+            <span>👁 ${article.author}</span>
+            <span>📖 阅读时间约 ${Math.ceil(article.content.replace(/<[^>]*>/g, '').length / 500)} 分钟</span>
+          </div>
+        </div>
+        <div class="article-body">
+          ${article.content}
+        </div>
+        <div class="article-nav">
+          ${currentIndex > 0 ? `<a href="news-detail.html?id=${articles[currentIndex - 1].id}">← 上一篇</a>` : '<span></span>'}
+          ${currentIndex < articles.length - 1 ? `<a href="news-detail.html?id=${articles[currentIndex + 1].id}">下一篇 →</a>` : '<span></span>'}
+        </div>
+      `;
+
+      // 触发滚动动画
+      setTimeout(() => {
+        container.classList.add('visible');
+        const reveals = document.querySelectorAll('.reveal');
+        reveals.forEach(el => el.classList.add('visible'));
+      }, 100);
+    }
+
+    document.addEventListener('DOMContentLoaded', renderArticle);
+  </script>
+</body>
+</html>

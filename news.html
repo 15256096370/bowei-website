@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>新闻资讯 - 行业动态/技术分享 | 安徽柏威工业</title>
+  <meta name="description" content="安徽柏威工业新闻资讯：液压夹具行业动态、机加工技术分享、公司最新动态，了解夹具技术与自动化集成前沿资讯。" />
+  <meta name="keywords" content="液压夹具资讯,机加工行业动态,夹具技术,公司新闻" />
+  <link rel="icon" href="assets/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    /* News-specific styles */
+    .news-grid { display:grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+    .news-card {
+      background:#fff; border-radius: var(--radius-lg); overflow:hidden;
+      box-shadow: var(--shadow-sm); border:1px solid var(--c-line);
+      transition: all var(--transition); display:flex; flex-direction:column;
+    }
+    .news-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
+    .news-card .img-wrap { aspect-ratio: 16/9; overflow:hidden; background: var(--c-bg-soft); position:relative; }
+    .news-card .img-wrap img { width:100%; height:100%; object-fit: cover; transition: transform .5s; }
+    .news-card:hover .img-wrap img { transform: scale(1.05); }
+    .news-card .img-wrap .date-badge {
+      position:absolute; top:14px; left:14px;
+      background: var(--c-primary); color:#fff; padding: 8px 14px;
+      border-radius: var(--radius); text-align:center; line-height:1.1;
+      box-shadow: var(--shadow-red);
+    }
+    .news-card .img-wrap .date-badge .d { font-size:20px; font-weight:800; display:block; }
+    .news-card .img-wrap .date-badge .m { font-size:11px; opacity:.9; }
+    .news-card .body { padding: 24px 26px 28px; flex:1; display:flex; flex-direction:column; }
+    .news-card .cat { display:inline-block; font-size:12px; font-weight:600; color:var(--c-primary); background:rgba(200,16,46,0.08); padding:3px 10px; border-radius:12px; margin-bottom:12px; align-self:flex-start; }
+    .news-card h3 { font-size:19px; font-weight:700; margin-bottom:10px; color:var(--c-ink); line-height:1.4; }
+    .news-card p { font-size:14px; color:var(--c-ink-2); line-height:1.7; flex:1; }
+    .news-card .meta { margin-top:16px; padding-top:16px; border-top:1px solid var(--c-line); display:flex; justify-content:space-between; font-size:13px; color:var(--c-ink-3); }
+    .news-card .meta a { color:var(--c-primary); font-weight:600; }
+    @media (max-width:768px){ .news-grid{ grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <img class="logo" src="assets/logo.png" alt="安徽柏威工业技术有限公司 BOWEI INDUSTRIAL" />
+      </a>
+      <nav class="main-nav">
+        <a href="index.html">首页</a>
+        <a href="about.html">关于我们</a>
+        <a href="products.html">产品中心</a>
+        <a href="cases.html">应用案例</a>
+        <a href="news.html" class="active">新闻资讯</a>
+        <a href="contact.html">联系我们</a>
+      </nav>
+      <div class="header-actions">
+        <div class="lang-switch">
+          <a href="news.html" class="active">中</a>
+          <a href="en/news.html">EN</a>
+        </div>
+        <a href="contact.html" class="btn btn--primary">获取报价</a>
+        <button class="nav-toggle" aria-label="菜单"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ PAGE HERO ============ -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>新闻资讯</h1>
+      <p>了解液压夹具行业动态、机加工技术前沿与柏威最新动态</p>
+      <div class="breadcrumb">
+        <a href="index.html">首页</a><span>/</span>新闻资讯
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURED + NEWS LIST ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">LATEST NEWS · 最新资讯</span>
+        <h2>技术分享与行业动态</h2>
+        <p>持续分享夹具设计、机加工工艺、自动化集成的专业知识</p>
+      </div>
+
+      <div class="news-grid">
+
+        <article class="news-card reveal">
+          <div class="img-wrap">
+            <div class="date-badge"><span class="d">18</span><span class="m">2026.06</span></div>
+            <img src="assets/cases/case-03.png" alt="液压夹具技术" onerror="this.style.display='none'">
+          </div>
+          <div class="body">
+            <span class="cat">技术分享</span>
+            <h3>液压夹具 vs 手动夹具：五大维度全面解析</h3>
+            <p>从效率、精度、智能化、安全、稳定性五个维度，深入对比液压夹具与手动夹具的差异。液压夹具夹紧/松开仅需 2-3 秒，夹紧力偏差仅 1%-1.5%，支撑力偏差低至 0.5%-0.8%……</p>
+            <div class="meta">
+              <span>📅 2026-06-18 · 👁 技术中心</span>
+              <a href="news-detail.html?id=1">阅读全文 →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="news-card reveal">
+          <div class="img-wrap">
+            <div class="date-badge"><span class="d">10</span><span class="m">2026.06</span></div>
+            <img src="assets/products/positioning-3.png" alt="零点定位系统" onerror="this.style.display='none'">
+          </div>
+          <div class="body">
+            <span class="cat">产品知识</span>
+            <h3>零点定位系统：0.003mm 精度如何提升换装效率</h3>
+            <p>零点定位系统重复定位精度可达 ≤0.003mm，是实现工装快速更换的关键技术。本文详解球锁定位与零点定位的差异、选型要点及典型应用场景……</p>
+            <div class="meta">
+              <span>📅 2026-06-10 · 👁 技术中心</span>
+              <a href="news-detail.html?id=2">阅读全文 →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="news-card reveal">
+          <div class="img-wrap">
+            <div class="date-badge"><span class="d">28</span><span class="m">2026.05</span></div>
+            <img src="assets/products/automation-1.png" alt="协作机器人" onerror="this.style.display='none'">
+          </div>
+          <div class="body">
+            <span class="cat">自动化</span>
+            <h3>协作机器人：中小企业小批量多品种生产的最优解</h3>
+            <p>协作机器人体积小、灵活、安全，部署成本低，可接管上下料等简单重复任务。对于车间操作工而言，它能有效提高产量和质量，是柔性制造的关键……</p>
+            <div class="meta">
+              <span>📅 2026-05-28 · 👁 自动化部</span>
+              <a href="news-detail.html?id=3">阅读全文 →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="news-card reveal">
+          <div class="img-wrap">
+            <div class="date-badge"><span class="d">26</span><span class="m">2026.05</span></div>
+            <img src="assets/轻量化大会.jpg" alt="轻量化产业大会" onerror="this.style.display='none'">
+          </div>
+          <div class="body">
+            <span class="cat">公司动态</span>
+            <h3>柏威参加2026第五届中国轻量化产业大会</h3>
+            <p>2026年5月26日-28日，第五届中国轻量化产业大会（CLIC）暨安徽省铸造协会压铸分会第一届会员大会在合肥白金汉爵大酒店隆重召开。柏威作为专业工装夹具制造商参会……</p>
+            <div class="meta">
+              <span>📅 2026-05-26 · 👁 行政部</span>
+              <a href="news-detail.html?id=7">阅读全文 →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="news-card reveal">
+          <div class="img-wrap">
+            <div class="date-badge"><span class="d">15</span><span class="m">2026.05</span></div>
+            <img src="assets/cases/case-02.png" alt="四轴加工" onerror="this.style.display='none'">
+          </div>
+          <div class="body">
+            <span class="cat">行业动态</span>
+            <h3>汽车零部件机加工趋势：高精度与柔性化并重</h3>
+            <p>随着新能源汽车快速发展，电机壳、电机轴、涡轮增压壳等零部件的机加工需求持续增长。高精度夹具与柔性制造单元的结合，正成为行业主流趋势……</p>
+            <div class="meta">
+              <span>📅 2026-05-15 · 👁 市场部</span>
+              <a href="news-detail.html?id=4">阅读全文 →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="news-card reveal">
+          <div class="img-wrap">
+            <div class="date-badge"><span class="d">14</span><span class="m">2026.05</span></div>
+            <img src="assets/合肥制博会.jpg" alt="合肥制博会" onerror="this.style.display='none'">
+          </div>
+          <div class="body">
+            <span class="cat">公司动态</span>
+            <h3>柏威亮相第26届中国（合肥）国际装备制造业博览会</h3>
+            <p>5月14日-16日，第26届中国（合肥）国际装备制造业博览会在合肥滨湖国际会展中心盛大举行。安徽柏威亮相5号馆B121-2展位，展示机床、夹具、自动化等整体机加工解决方案……</p>
+            <div class="meta">
+              <span>📅 2026-05-14 · 👁 市场部</span>
+              <a href="news-detail.html?id=8">阅读全文 →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="news-card reveal">
+          <div class="img-wrap">
+            <div class="date-badge"><span class="d">02</span><span class="m">2026.05</span></div>
+            <img src="assets/equipment/equip-2.png" alt="加工设备" onerror="this.style.display='none'">
+          </div>
+          <div class="body">
+            <span class="cat">公司动态</span>
+            <h3>柏威引进高精度数控设备，持续提升加工能力</h3>
+            <p>公司持续投入日本大隈车削中心、美国捷力加工中心、四轴半数控转台、高精密磨床等先进设备，配合高精度三坐标检测，全面提升核心零件自主生产能力……</p>
+            <div class="meta">
+              <span>📅 2026-05-02 · 👁 行政部</span>
+              <a href="news-detail.html?id=5">阅读全文 →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="news-card reveal">
+          <div class="img-wrap">
+            <div class="date-badge"><span class="d">20</span><span class="m">2026.04</span></div>
+            <img src="assets/cases/case-01.png" alt="夹具设计" onerror="this.style.display='none'">
+          </div>
+          <div class="body">
+            <span class="cat">技术分享</span>
+            <h3>工装夹具设计要点：从工件分析到方案落地</h3>
+            <p>优秀的夹具设计始于对工件结构、材料、加工工序的深入分析。本文分享柏威 20 年夹具设计经验总结的核心方法论，涵盖定位方案、夹紧力计算、刚性校核……</p>
+            <div class="meta">
+              <span>📅 2026-04-20 · 👁 技术中心</span>
+              <a href="news-detail.html?id=6">阅读全文 →</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Pagination -->
+      <div class="text-center mt-40 reveal" style="margin-top:50px;">
+        <div style="display:inline-flex;gap:8px;align-items:center;">
+          <button class="btn btn--outline" style="padding:10px 18px;">← 上一页</button>
+          <button class="btn btn--primary" style="padding:10px 18px;">1</button>
+          <button class="btn btn--outline" style="padding:10px 18px;">2</button>
+          <button class="btn btn--outline" style="padding:10px 18px;">3</button>
+          <button class="btn btn--outline" style="padding:10px 18px;">下一页 →</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta-band">
+    <div class="container">
+      <div class="reveal">
+        <h2>有技术问题想深入交流？</h2>
+        <p>欢迎联系我们的专业技术团队</p>
+      </div>
+      <div class="reveal">
+        <a href="contact.html" class="btn btn--accent btn--lg">联系技术团队</a>
+        <a href="tel:15256096370" class="btn btn--ghost btn--lg" style="margin-left:12px">📞 15256096370</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand"><img class="logo" src="assets/logo.png" alt="安徽柏威工业技术有限公司 BOWEI INDUSTRIAL" /></a>
+          <p>安徽柏威工业技术有限公司，高新技术企业，专业从事液压工装夹具、定位与交换系统、非标自动化设备的研发、生产与销售，是华东区首屈一指的专业工装夹具制造商。</p>
+        </div>
+        <div class="footer-col">
+          <h4>快速导航</h4>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="about.html">关于我们</a></li>
+            <li><a href="products.html">产品中心</a></li>
+            <li><a href="cases.html">应用案例</a></li>
+            <li><a href="news.html">新闻资讯</a></li>
+            <li><a href="contact.html">联系我们</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>产品系列</h4>
+          <ul>
+            <li><a href="products.html">液压夹具</a></li>
+            <li><a href="products.html">气动夹具</a></li>
+            <li><a href="products.html">球锁定位</a></li>
+            <li><a href="products.html">零点定位</a></li>
+            <li><a href="products.html">交换工作台</a></li>
+            <li><a href="products.html">自动化集成</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>联系我们</h4>
+          <ul class="footer-contact">
+            <li><span class="ico">📍</span><span>合肥市包河区繁华大道联东U谷二期12栋102号</span></li>
+            <li><span class="ico">📞</span><span><a href="tel:15256096370">15256096370</a></span></li>
+            <li><span class="ico">👤</span><span>联系人：陈迟迟</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span class="js-year">2026</span> 安徽柏威工业技术有限公司 版权所有 · Anhui Bowei Industrial Technology Co., Ltd.</span>
+        <span>高新技术企业 · ISO9001 认证企业</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

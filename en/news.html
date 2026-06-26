@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>News - Industry Trends & Technical Insights | Bowei Industrial</title>
+  <meta name="description" content="Bowei Industrial news: hydraulic fixture industry trends, machining technical insights, company updates — stay informed on fixture technology and automation." />
+  <link rel="icon" href="../assets/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <style>
+    .news-grid { display:grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+    .news-card { background:#fff; border-radius: var(--radius-lg); overflow:hidden; box-shadow: var(--shadow-sm); border:1px solid var(--c-line); transition: all var(--transition); display:flex; flex-direction:column; }
+    .news-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
+    .news-card .img-wrap { aspect-ratio: 16/9; overflow:hidden; background: var(--c-bg-soft); position:relative; }
+    .news-card .img-wrap img { width:100%; height:100%; object-fit: cover; transition: transform .5s; }
+    .news-card:hover .img-wrap img { transform: scale(1.05); }
+    .news-card .img-wrap .date-badge { position:absolute; top:14px; left:14px; background: var(--c-primary); color:#fff; padding: 8px 14px; border-radius: var(--radius); text-align:center; line-height:1.1; box-shadow: var(--shadow-red); }
+    .news-card .img-wrap .date-badge .d { font-size:20px; font-weight:800; display:block; }
+    .news-card .img-wrap .date-badge .m { font-size:11px; opacity:.9; }
+    .news-card .body { padding: 24px 26px 28px; flex:1; display:flex; flex-direction:column; }
+    .news-card .cat { display:inline-block; font-size:12px; font-weight:600; color:var(--c-primary); background:rgba(200,16,46,0.08); padding:3px 10px; border-radius:12px; margin-bottom:12px; align-self:flex-start; }
+    .news-card h3 { font-size:19px; font-weight:700; margin-bottom:10px; color:var(--c-ink); line-height:1.4; }
+    .news-card p { font-size:14px; color:var(--c-ink-2); line-height:1.7; flex:1; }
+    .news-card .meta { margin-top:16px; padding-top:16px; border-top:1px solid var(--c-line); display:flex; justify-content:space-between; font-size:13px; color:var(--c-ink-3); }
+    .news-card .meta a { color:var(--c-primary); font-weight:600; }
+    @media (max-width:768px){ .news-grid{ grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand"><img class="logo" src="../assets/logo.png" alt="Anhui Bowei Industrial Technology" /></a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="cases.html">Cases</a>
+        <a href="news.html" class="active">News</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <div class="lang-switch"><a href="../news.html">中</a><a href="news.html" class="active">EN</a></div>
+        <a href="contact.html" class="btn btn--primary">Get Quote</a>
+        <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>News & Insights</h1>
+      <p>Stay informed on hydraulic fixture trends, machining technology and the latest from Bowei</p>
+      <div class="breadcrumb"><a href="index.html">Home</a><span>/</span>News</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">LATEST NEWS</span>
+        <h2>Technical Insights & Industry Trends</h2>
+        <p>Continuously sharing expertise in fixture design, machining processes and automation</p>
+      </div>
+      <div class="news-grid">
+        <article class="news-card reveal">
+          <div class="img-wrap"><div class="date-badge"><span class="d">18</span><span class="m">2026.06</span></div><img src="../assets/cases/case-04.png" alt="Hydraulic fixture tech" onerror="this.style.display='none'"></div>
+          <div class="body"><span class="cat">Technical</span><h3>Hydraulic vs Manual Fixtures: A 5-Dimension Analysis</h3><p>Across efficiency, precision, intelligence, safety and stability — hydraulic fixtures clamp/release in just 2-3 seconds, with clamping deviation of only 1%-1.5% and support deviation as low as 0.5%-0.8%...</p><div class="meta"><span>📅 2026-06-18 · 👁 Tech Center</span><a href="contact.html">Read More →</a></div></div>
+        </article>
+        <article class="news-card reveal">
+          <div class="img-wrap"><div class="date-badge"><span class="d">10</span><span class="m">2026.06</span></div><img src="../assets/products/positioning-3.png" alt="Zero-point positioning" onerror="this.style.display='none'"></div>
+          <div class="body"><span class="cat">Product</span><h3>Zero-Point Positioning: How 0.003mm Boosts Changeover Efficiency</h3><p>Zero-point positioning achieves repeatability ≤0.003mm — a key technology for rapid fixture changeover. This article details ball-lock vs zero-point differences, selection criteria and typical applications...</p><div class="meta"><span>📅 2026-06-10 · 👁 Tech Center</span><a href="contact.html">Read More →</a></div></div>
+        </article>
+        <article class="news-card reveal">
+          <div class="img-wrap"><div class="date-badge"><span class="d">28</span><span class="m">2026.05</span></div><img src="../assets/products/automation-1.png" alt="Cobot" onerror="this.style.display='none'"></div>
+          <div class="body"><span class="cat">Automation</span><h3>Cobots: The Optimal Solution for SME High-Mix Low-Volume Production</h3><p>Cobots are compact, flexible and safe with low deployment cost, taking over loading/unloading tasks. They effectively boost output and quality — key enablers of flexible manufacturing...</p><div class="meta"><span>📅 2026-05-28 · 👁 Automation Dept</span><a href="contact.html">Read More →</a></div></div>
+        </article>
+        <article class="news-card reveal">
+          <div class="img-wrap"><div class="date-badge"><span class="d">15</span><span class="m">2026.05</span></div><img src="../assets/cases/case-02.png" alt="4-axis machining" onerror="this.style.display='none'"></div>
+          <div class="body"><span class="cat">Industry</span><h3>Automotive Machining Trends: High Precision Meets Flexibility</h3><p>With the rapid growth of new energy vehicles, demand for machining motor housings, shafts and turbo housings keeps rising. High-precision fixtures combined with flexible cells are becoming mainstream...</p><div class="meta"><span>📅 2026-05-15 · 👁 Marketing</span><a href="contact.html">Read More →</a></div></div>
+        </article>
+        <article class="news-card reveal">
+          <div class="img-wrap"><div class="date-badge"><span class="d">02</span><span class="m">2026.05</span></div><img src="../assets/equipment/equip-2.png" alt="CNC equipment" onerror="this.style.display='none'"></div>
+          <div class="body"><span class="cat">Company</span><h3>Bowei Invests in High-Precision CNC Equipment</h3><p>The company continues to invest in OKK turning centers, Hardinge machining centers, 4.5-axis rotary tables and precision grinders, paired with high-precision CMM, comprehensively upgrading in-house core part capability...</p><div class="meta"><span>📅 2026-05-02 · 👁 Admin</span><a href="contact.html">Read More →</a></div></div>
+        </article>
+        <article class="news-card reveal">
+          <div class="img-wrap"><div class="date-badge"><span class="d">20</span><span class="m">2026.04</span></div><img src="../assets/cases/case-01.png" alt="Fixture design" onerror="this.style.display='none'"></div>
+          <div class="body"><span class="cat">Technical</span><h3>Workholding Fixture Design Essentials: From Workpiece to Solution</h3><p>Great fixture design starts with deep analysis of workpiece structure, material and operations. This article shares 20 years of core methodology — locating schemes, clamping force calc, rigidity checks...</p><div class="meta"><span>📅 2026-04-20 · 👁 Tech Center</span><a href="contact.html">Read More →</a></div></div>
+        </article>
+      </div>
+      <div class="text-center mt-40 reveal" style="margin-top:50px;">
+        <div style="display:inline-flex;gap:8px;align-items:center;">
+          <button class="btn btn--outline" style="padding:10px 18px;">← Prev</button>
+          <button class="btn btn--primary" style="padding:10px 18px;">1</button>
+          <button class="btn btn--outline" style="padding:10px 18px;">2</button>
+          <button class="btn btn--outline" style="padding:10px 18px;">3</button>
+          <button class="btn btn--outline" style="padding:10px 18px;">Next →</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="container">
+      <div class="reveal"><h2>Want an in-depth technical discussion?</h2><p>Welcome to reach out to our professional technical team</p></div>
+      <div class="reveal">
+        <a href="contact.html" class="btn btn--accent btn--lg">Contact Tech Team</a>
+        <a href="tel:+8615256096370" class="btn btn--ghost btn--lg" style="margin-left:12px">📞 +86 15256096370</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand"><a href="index.html" class="brand"><img class="logo" src="../assets/logo.png" alt="Anhui Bowei Industrial Technology" /></a><p>Anhui Bowei Industrial Technology Co., Ltd. — a high-tech enterprise specializing in hydraulic workholding fixtures, positioning & exchange systems, and non-standard automation equipment. The premier workholding fixture manufacturer in East China.</p></div>
+        <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="products.html">Products</a></li><li><a href="cases.html">Cases</a></li><li><a href="news.html">News</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div class="footer-col"><h4>Products</h4><ul><li><a href="products.html">Hydraulic Fixtures</a></li><li><a href="products.html">Pneumatic Fixtures</a></li><li><a href="products.html">Ball-Lock Positioning</a></li><li><a href="products.html">Zero-Point Positioning</a></li><li><a href="products.html">Exchange Tables</a></li><li><a href="products.html">Automation Integration</a></li></ul></div>
+        <div class="footer-col"><h4>Contact</h4><ul class="footer-contact"><li><span class="ico">📍</span><span>Room 102, Bldg 12, Phase II, Liandong U Valley, Fanhua Ave, Baohe District, Hefei</span></li><li><span class="ico">📞</span><span><a href="tel:+8615256096370">+86 15256096370</a> (Mr. Chen)</span></li><li><span class="ico">👤</span><span>Contact: Chen Chichi</span></li></ul></div>
+      </div>
+      <div class="footer-bottom"><span>© <span class="js-year">2026</span> Anhui Bowei Industrial Technology Co., Ltd. All Rights Reserved.</span><span>High-Tech Enterprise · ISO9001 Certified</span></div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
