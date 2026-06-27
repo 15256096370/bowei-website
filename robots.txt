@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /.github/
+Disallow: /*.pptx
+Disallow: /*.doc
+Disallow: /.git/
+
+Sitemap: https://anhuibowei.com/sitemap.xml

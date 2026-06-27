@@ -11,3 +11,8 @@
 *.PPT 
 /安徽柏威* 
 /柏威*
+
+# 以下文件需要纳入版本管理
+!robots.txt
+!sitemap.xml
+!baidu_verify_*.html
