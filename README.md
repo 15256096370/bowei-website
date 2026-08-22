@@ -4,6 +4,27 @@
 
 ---
 
+## 🚨 部署与上线（重要，务必遵守）
+
+| 项目 | 内容 |
+|------|------|
+| **生产仓库（线上网站 = 这个仓库）** | `https://github.com/15256096370/bowei-website` ✅ |
+| ~~废弃仓库（勿再推送）~~ | ~~`15256096370/bowei-tech`~~（域名已从该仓库摘除，只托管旧代码） |
+| 线上域名 | `https://anhuibowei.com`（自定义域名绑定在 bowei-website 上） |
+| 本地 git 远程 | origin 已指向 bowei-website，直接 `git push` 即可 |
+| 部署方式 | GitHub Pages（push 到 main 自动部署，约 1-3 分钟生效） |
+
+**上线流程**：改完文件 → `git add -A` → `git commit -m "说明"` → `git push origin main` → 等 1-3 分钟 → 用 `curl -s -o NUL -w "%{http_code}" https://anhuibowei.com/xxx.html` 验证 200。
+
+**注意事项**：
+- `.gitignore` 忽略原始素材（`其他素材/`、根目录 `安徽柏威*`、`柏威*`、`*.pptx` 等），这些不要提交
+- `.gitignore` 文件必须是 UTF-8 编码（用 GBK 会导致中文忽略规则全部失效）
+- GitHub 认证走 Windows 凭据管理器（Git Credential Manager），首次推送若弹登录窗，完成授权即可
+
+---
+
+---
+
 ## 📁 项目结构
 
 ```
