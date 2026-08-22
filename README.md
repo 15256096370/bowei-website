@@ -74,6 +74,7 @@ bowei-website/
 | `llms.txt` | 根目录 + `en/`，向 GPTBot / PerplexityBot 等 AI 爬虫主动介绍公司、产品与联系信息 |
 | `robots.txt` | 明确 Allow 谷歌、百度、GPTBot、OAI-SearchBot、PerplexityBot、ClaudeBot、Bytespider（豆包）等 |
 | `sitemap.xml` | 已收录全部新页面（含 hreflang 中英对应） |
+| IndexNow | 根目录 `bc3f062045fb1a0c28c0a105f3695950.txt` 为密钥文件；每次网站内容更新后向 `https://api.indexnow.org/indexnow` 重新提交 URL（无需注册账号，同时提交 Bing/Yandex/Naver/Seznam） |
 | 全站页脚产品链接 | 指向对应落地页，强化站内链接结构 |
 
 **运营资料**（下一步照做即可）：
