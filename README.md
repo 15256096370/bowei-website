@@ -10,23 +10,26 @@
 bowei-website/
 ├── index.html              # 首页（中文）
 ├── about.html              # 关于我们（中文）
-├── products.html           # 产品中心（中文）
+├── products.html           # 产品中心（中文，含 FAQ 区块）
 ├── cases.html              # 应用案例（中文）
 ├── news.html               # 新闻资讯（中文）
 ├── contact.html            # 联系我们（中文）
-├── en/                     # 英文版（结构同中文）
-│   ├── index.html
-│   ├── about.html
-│   ├── products.html
-│   ├── cases.html
-│   ├── news.html
-│   └── contact.html
-├── css/
-│   └── style.css           # 全站设计系统（红色工业商务风）
-├── js/
-│   └── main.js             # 全站交互（导航/动效/筛选/表单）
-├── assets/                 # 图片资源（LOGO、产品图、设备图、案例图等）
-└── README.md               # 本文件
+├── hydraulic-fixture.html  # 液压夹具落地页（SEO 专题页）
+├── zero-point.html         # 零点定位落地页（SEO 专题页）
+├── ball-lock.html          # 球锁定位落地页（SEO 专题页）
+├── exchange-table.html     # 交换工作台落地页（SEO 专题页）
+├── automation.html         # 自动化集成落地页（SEO 专题页）
+├── en/                     # 英文版（结构同中文，含 5 个落地页）
+├── llms.txt                # AI 引擎信息文件（GPTBot/PerplexityBot 等直接读取）
+├── en/llms.txt             # 英文版 AI 信息文件
+├── sitemap.xml             # 站点地图（含全部 24+ 页面）
+├── robots.txt              # 爬虫规则（明确允许谷歌/百度/GPT/豆包等 AI 爬虫）
+├── css/style.css           # 全站设计系统（含 .faq-item 折叠样式）
+├── js/main.js              # 全站交互
+├── assets/                 # 图片资源
+├── 营销文案/               # 各平台开店文案包（关键词/阿里国际站/爱采购/1688/LinkedIn/谷歌商户/图片清单）
+├── 运营手册/               # 保姆级教程（GSC/Bing/备案/各平台开店，8 篇）
+└── README.md
 ```
 
 ## 🎨 设计规范
@@ -38,6 +41,23 @@ bowei-website/
 | 中文字体 | PingFang SC / Microsoft YaHei |
 | 英文字体 | Inter / Segoe UI |
 | 响应式 | 桌面 / 平板 / 手机三端自适应 |
+
+## 🔍 SEO 与 AI 搜索可见性（2026-08 新增）
+
+为让官网在 **谷歌 / 谷歌 AI Overviews / ChatGPT / Perplexity / 百度 / 豆包 / DeepSeek / 文心一言** 中被搜到，已做以下改造：
+
+| 项目 | 说明 |
+|------|------|
+| 5 个产品落地页 ×中英 | 液压夹具 / 零点定位 / 球锁定位 / 交换工作台 / 自动化集成，每页含 Product + FAQPage + BreadcrumbList 结构化数据，AI 引用友好 |
+| FAQ 区块 | products.html（中英）及每个落地页都有「常见问题」折叠区块，AI 引擎最爱引用的内容类型 |
+| `llms.txt` | 根目录 + `en/`，向 GPTBot / PerplexityBot 等 AI 爬虫主动介绍公司、产品与联系信息 |
+| `robots.txt` | 明确 Allow 谷歌、百度、GPTBot、OAI-SearchBot、PerplexityBot、ClaudeBot、Bytespider（豆包）等 |
+| `sitemap.xml` | 已收录全部新页面（含 hreflang 中英对应） |
+| 全站页脚产品链接 | 指向对应落地页，强化站内链接结构 |
+
+**运营资料**（下一步照做即可）：
+- `营销文案/`：关键词总表 + 阿里国际站 / 爱采购 / 1688 / LinkedIn / 谷歌商户 全套开店文案 + 图片清单
+- `运营手册/`：Google Search Console、Bing、ICP 备案、各平台开店的 8 篇图文教程
 
 ## 🚀 本地预览
 

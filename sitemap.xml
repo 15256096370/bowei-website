@@ -57,6 +57,48 @@
     <priority>0.9</priority>
   </url>
 
+  <!-- ============ 产品落地页（SEO 专题页） ============ -->
+  <url>
+    <loc>https://anhuibowei.com/hydraulic-fixture.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://anhuibowei.com/hydraulic-fixture.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://anhuibowei.com/en/hydraulic-fixture.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://anhuibowei.com/hydraulic-fixture.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://anhuibowei.com/zero-point.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://anhuibowei.com/zero-point.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://anhuibowei.com/en/zero-point.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://anhuibowei.com/zero-point.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://anhuibowei.com/ball-lock.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://anhuibowei.com/ball-lock.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://anhuibowei.com/en/ball-lock.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://anhuibowei.com/ball-lock.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://anhuibowei.com/exchange-table.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://anhuibowei.com/exchange-table.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://anhuibowei.com/en/exchange-table.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://anhuibowei.com/exchange-table.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://anhuibowei.com/automation.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://anhuibowei.com/automation.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://anhuibowei.com/en/automation.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://anhuibowei.com/automation.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- ============ 英文版 ============ -->
   <url>
     <loc>https://anhuibowei.com/en/</loc>
@@ -105,6 +147,48 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://anhuibowei.com/contact.html"/>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+
+  <!-- ============ 英文产品落地页 ============ -->
+  <url>
+    <loc>https://anhuibowei.com/en/hydraulic-fixture.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://anhuibowei.com/hydraulic-fixture.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://anhuibowei.com/en/hydraulic-fixture.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://anhuibowei.com/hydraulic-fixture.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://anhuibowei.com/en/zero-point.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://anhuibowei.com/zero-point.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://anhuibowei.com/en/zero-point.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://anhuibowei.com/zero-point.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://anhuibowei.com/en/ball-lock.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://anhuibowei.com/ball-lock.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://anhuibowei.com/en/ball-lock.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://anhuibowei.com/ball-lock.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://anhuibowei.com/en/exchange-table.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://anhuibowei.com/exchange-table.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://anhuibowei.com/en/exchange-table.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://anhuibowei.com/exchange-table.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://anhuibowei.com/en/automation.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://anhuibowei.com/automation.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://anhuibowei.com/en/automation.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://anhuibowei.com/automation.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 
 </urlset>

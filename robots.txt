@@ -5,4 +5,35 @@ Disallow: /*.pptx
 Disallow: /*.doc
 Disallow: /.git/
 
+# ============ AI 引擎爬虫（明确允许，便于被 Google AI / ChatGPT / Perplexity / 豆包 等引用） ============
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
 Sitemap: https://anhuibowei.com/sitemap.xml

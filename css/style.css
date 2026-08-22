@@ -449,7 +449,27 @@ ul { list-style: none; }
   background: rgba(200,16,46,0.08); color: var(--c-primary); border-radius: 20px;
 }
 
-/* ---------- 19. Responsive ---------- */
+/* ---------- 19. FAQ（常见问题） ---------- */
+.faq-list { max-width: 860px; margin: 0 auto; }
+.faq-item {
+  background: #fff; border: 1px solid var(--c-line); border-radius: var(--radius);
+  margin-bottom: 14px; overflow: hidden; box-shadow: var(--shadow-sm);
+}
+.faq-item summary {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  padding: 20px 26px; cursor: pointer; list-style: none; font-size: 17px; font-weight: 700; color: var(--c-ink);
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after {
+  content: '+'; flex: none; width: 28px; height: 28px; border-radius: 50%;
+  background: rgba(200,16,46,0.08); color: var(--c-primary);
+  display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 700;
+  transition: transform 0.3s ease;
+}
+.faq-item[open] summary::after { transform: rotate(45deg); background: var(--c-primary); color: #fff; }
+.faq-item .faq-a { padding: 0 26px 22px; color: var(--c-ink-2); line-height: 1.9; font-size: 15px; }
+
+/* ---------- 20. Responsive ---------- */
 @media (max-width: 1024px) {
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 36px; }
   .hero .container { grid-template-columns: 1fr; }
